@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SurveyForm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Quick Survey Form</h1>
+    <br>
+    <div class="survey">
+        <p>Name</p>
+        <textarea name="Fill name" id="101" placeholder="Enter your name" class="textholder"></textarea>
+
+        <p>Email</p>
+        <textarea name="Fill emai" id="102" placeholder="Enter your Emai" class="textholder"></textarea>
+
+        <p>Address</p>
+        <textarea name="Fill add" id="103" placeholder="Enter your location" class="textholder"></textarea>
+
+        <p>Which option best describes your current role?</p>
+        <select name="current role" id="current role" class="textholder">
+            <option value="">Select an option</option>
+            <option value="Artificial Intelligence(AI) Engineer">Artificial Intelligence(AI) Engineer</option>
+            <option value="App Developer">App Developer</option>
+            <option value="Back-end Developer">Back-end Developer</option>
+            <option value="Cyber Security Analyst">Cyber Security Analyst</option>
+            <option value="Database Manager">Database Manager</option>
+            <option value="Front-end Developer">Front-end Developer</option>
+            <option value="HR Manager">HR Manager</option>
+            <option value="Product Manager">Product Manager</option>
+            <option value="Software Developer">Software Developer</option>
+        </select>
+
+        <p>Would you recommend us to your friend?</p>
+            <label for="id1">
+                <input type="radio" value="yes" name="Definitely" id="id1"/>Definitely
+            </label>
+            <br>
+            <label for="id2">
+                <input type="radio" value="yes" name="Definitely" id="id2"/>May be
+            </label>    
+            <br>
+            <label for="id3">
+                <input type="radio" value="yes" name="Definitely" id="id3"/>Not Sure
+            </label>
+            <br>
+
+            <p>Comments</p>
+            <textarea name="Fill add" id="103" placeholder="Enter your comments here..." class="textholder"></textarea>
+            <br>
+            <br>
+            <button class="submit">Submit</button>
+    </div>
+</body>
+</html>
